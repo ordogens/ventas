@@ -5,11 +5,13 @@ export const Interfaz = () => {
   const [imput, setImput] = useState("");
   const [boton, setBoton] = useState(0);
   const [ventaMensual, setVentaMensual] = useState(0);
+  const [clientes, setClientes] = useState(0)
 
   const suma = () => {
     const nuevoValor = imput;
     setBoton(boton + nuevoValor);
     setVentaMensual(ventaMensual + nuevoValor);
+    setClientes(clientes + 1)
   };
 
   return (
@@ -40,6 +42,10 @@ export const Interfaz = () => {
           }}
         />
         <button onClick={suma}>Enviar</button>
+        <h2 style={{color: '#ccc', marginTop: '1rem'}}>Visited:</h2>
+        <div>
+          <h3 style={{color: '#ccc'}}>{clientes}</h3>
+        </div>
       </div>
     </div>
   );

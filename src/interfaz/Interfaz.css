@@ -49,6 +49,8 @@
     height: 2rem;
    border: 1px solid #666;
    outline: none;
+   font-size: 20px;
+   font-weight: bolder;
   }
 
   button{
