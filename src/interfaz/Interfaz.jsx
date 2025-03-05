@@ -1,4 +1,5 @@
 import "./Interfaz.css";
+import { Header } from "../Header/Header";
 import { useState } from "react";
 
 export const Interfaz = () => {
@@ -16,6 +17,7 @@ export const Interfaz = () => {
 
   return (
     <div className="Interfaz">
+      <Header/>
       <div className="Interfas">
         <div className="valores">
           <h2>Total sales today:</h2>

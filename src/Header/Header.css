@@ -1,0 +1,16 @@
+.Header{
+    height: 6%;
+    display: flex;
+    padding-left: 1rem;
+    border: 1px solid gray;
+    border-radius: 10px 10px 0px 0px;
+
+
+    
+    h1{
+        display: flex;
+        color: gainsboro;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
