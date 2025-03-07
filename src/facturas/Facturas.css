@@ -1,0 +1,86 @@
+.Facturas{
+ border-radius: 0 0 10px 10px;
+  width: 95%;
+  height: 90%;
+  background: linear-gradient(to right, #0f245e, #000000, #0f245e);
+  background-size: 200% 100%;
+  display: flex;
+  animation: gradientShift 10s infinite linear;
+  
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+    .Facturas {
+      width: 98%;
+    }
+  }
+
+  .inputs{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .labelP{
+        font-weight: bolder;
+        color: #ccc;
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .inputL{
+        outline: none;
+        width: 20rem;
+        height: 2rem;
+    }
+
+    .bbb{
+        font-weight: bolder;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 8px;
+        margin-top: 2rem;
+        cursor: pointer;
+        border: none;
+    }
+    
+  } 
+
+   .vistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    
+
+    .pantalla{
+    width: 90%;
+    height: 80%;
+    background-color: #ccc;
+    border-radius: 12px 12px 0 0;
+    padding-left: 1rem;
+
+    }
+
+    .pantallaValor{
+        background-color: #ccc;
+        width: 90%;
+        height: 15%;
+        border-top: 1px solid #000;
+        border-radius: 0 0 12px 12px;
+        padding-left: 1rem;
+    }
+  }

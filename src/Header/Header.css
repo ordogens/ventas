@@ -1,9 +1,12 @@
 .Header{
     height: 6%;
+    width: 95%;
     display: flex;
+    background: linear-gradient(to right, #0f245e, #000000, #0f245e);
+     background-size: 200% 100%;
+    animation: gradientShift 10s infinite linear;
     justify-content: space-between;
     padding-left: 1rem;
-    outline: 2px solid gray;
     border-radius: 10px 10px 0px 0px;
     
     h1{
@@ -13,6 +16,21 @@
         font-weight: bold;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .Header {
+      width: 98%;
+    }
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
 
 ul{
     display: flex;

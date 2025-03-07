@@ -17,7 +17,6 @@ export const Interfaz = () => {
 
   return (
     <div className="Interfaz">
-      <Header/>
       <div className="Interfas">
         <div className="valores">
           <h2>Total sales today:</h2>
