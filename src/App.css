@@ -1,6 +1,4 @@
-@import 'tailwindcss';
-
-.App{
+.App {
   height: 90%;
   width: 90%;
   background-color: gray;
@@ -15,5 +13,5 @@
 @media screen and (min-width: 768px) {
   .App {
     width: 95%;
-  }  
+  }
 }

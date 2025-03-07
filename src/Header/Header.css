@@ -1,16 +1,28 @@
 .Header{
     height: 6%;
     display: flex;
+    justify-content: space-between;
     padding-left: 1rem;
-    border: 1px solid gray;
+    outline: 2px solid gray;
     border-radius: 10px 10px 0px 0px;
-
-
     
     h1{
         display: flex;
         color: gainsboro;
         font-size: 20px;
         font-weight: bold;
+    }
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+    font-weight: bolder;
+
+
+    li{
+        color: #ccc;
+        list-style: none;
     }
 }
