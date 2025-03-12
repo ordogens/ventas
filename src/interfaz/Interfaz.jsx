@@ -1,5 +1,4 @@
 import "./Interfaz.css";
-import { Header } from "../Header/Header";
 import { useState } from "react";
 
 export const Interfaz = () => {

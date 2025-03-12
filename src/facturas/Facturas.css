@@ -6,7 +6,7 @@
   background-size: 200% 100%;
   display: flex;
   animation: gradientShift 10s infinite linear;
-  
+ 
 }
 
 @keyframes gradientShift {
@@ -18,11 +18,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-    .Facturas {
-      width: 98%;
-    }
-  }
+
 
   .inputs{
     width: 40%;
@@ -31,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
     .labelP{
         font-weight: bolder;
@@ -43,6 +40,9 @@
         outline: none;
         width: 20rem;
         height: 2rem;
+        border-radius: 7px;
+        border: none;
+        padding-inline: .5rem;
     }
 
     .bbb{
@@ -64,9 +64,9 @@
     flex-direction: column;
     width: 60%;
     height: 100%;
-    
 
     .pantalla{
+     overflow-y: auto;
     width: 90%;
     height: 80%;
     background-color: #ccc;
@@ -82,5 +82,11 @@
         border-top: 1px solid #000;
         border-radius: 0 0 12px 12px;
         padding-left: 1rem;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .Facturas {
+      width: 98%;
     }
   }

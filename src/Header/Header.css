@@ -38,9 +38,16 @@ ul{
     margin-right: 1rem;
     font-weight: bolder;
 
-
-    li{
-        color: #ccc;
-        list-style: none;
+    a{
+      color: #ccc;
+      list-style: none;
+      text-decoration: none;
     }
-}
+    
+    
+    li{
+      color: #ccc;
+      list-style: none;
+      
+    }
+  }
